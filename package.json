@@ -1,11 +1,12 @@
 {
   "name": "crpto_arbitrage_scanner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "nodemon index.ts",
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "generate_coin_list":"ts-node coinListGenerator.ts"
   },
   "keywords": [],
   "author": "",
