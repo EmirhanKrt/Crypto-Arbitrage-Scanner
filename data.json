@@ -1,0 +1,4822 @@
+[
+  {
+    "baseAsset": "BTC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 19103.56
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 19100.91
+      }
+    ]
+  },
+  {
+    "baseAsset": "ETH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1294.06
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1293.9
+      }
+    ]
+  },
+  {
+    "baseAsset": "BNB",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 270
+      }
+    ]
+  },
+  {
+    "baseAsset": "NEO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 8.03
+      }
+    ]
+  },
+  {
+    "baseAsset": "LTC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 52.05
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 52.05
+      }
+    ]
+  },
+  {
+    "baseAsset": "QTUM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.711
+      }
+    ]
+  },
+  {
+    "baseAsset": "ADA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3908
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.3909
+      }
+    ]
+  },
+  {
+    "baseAsset": "XRP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.4912
+      }
+    ]
+  },
+  {
+    "baseAsset": "EOS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.04
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.0392
+      }
+    ]
+  },
+  {
+    "baseAsset": "IOTA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2591
+      }
+    ]
+  },
+  {
+    "baseAsset": "XLM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1162
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.116152
+      }
+    ]
+  },
+  {
+    "baseAsset": "ONT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.214
+      }
+    ]
+  },
+  {
+    "baseAsset": "TRX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.06195
+      }
+    ]
+  },
+  {
+    "baseAsset": "ETC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 23.77
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 23.75
+      }
+    ]
+  },
+  {
+    "baseAsset": "ICX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2249
+      }
+    ]
+  },
+  {
+    "baseAsset": "NULS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1889
+      }
+    ]
+  },
+  {
+    "baseAsset": "VET",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02265
+      }
+    ]
+  },
+  {
+    "baseAsset": "LINK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 7.148
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 7.149
+      }
+    ]
+  },
+  {
+    "baseAsset": "WAVES",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.504
+      }
+    ]
+  },
+  {
+    "baseAsset": "ONG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3221
+      }
+    ]
+  },
+  {
+    "baseAsset": "HOT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.001985
+      }
+    ]
+  },
+  {
+    "baseAsset": "ZIL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.03063
+      }
+    ]
+  },
+  {
+    "baseAsset": "ZRX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2533
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.252919
+      }
+    ]
+  },
+  {
+    "baseAsset": "FET",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0791
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.079
+      }
+    ]
+  },
+  {
+    "baseAsset": "BAT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.283
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.28307
+      }
+    ]
+  },
+  {
+    "baseAsset": "XMR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 142.9
+      }
+    ]
+  },
+  {
+    "baseAsset": "ZEC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 51.5
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 51.38
+      }
+    ]
+  },
+  {
+    "baseAsset": "IOST",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01159
+      }
+    ]
+  },
+  {
+    "baseAsset": "CELR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01419
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.01424
+      }
+    ]
+  },
+  {
+    "baseAsset": "DASH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 42.07
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 42.07
+      }
+    ]
+  },
+  {
+    "baseAsset": "OMG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.595
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.5956
+      }
+    ]
+  },
+  {
+    "baseAsset": "THETA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.018
+      }
+    ]
+  },
+  {
+    "baseAsset": "ENJ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.4281
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.428
+      }
+    ]
+  },
+  {
+    "baseAsset": "MITH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01876
+      }
+    ]
+  },
+  {
+    "baseAsset": "MATIC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.7908
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.7905
+      }
+    ]
+  },
+  {
+    "baseAsset": "ATOM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 11.938
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 11.94
+      }
+    ]
+  },
+  {
+    "baseAsset": "TFUEL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0492
+      }
+    ]
+  },
+  {
+    "baseAsset": "ONE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01806
+      }
+    ]
+  },
+  {
+    "baseAsset": "FTM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2069
+      }
+    ]
+  },
+  {
+    "baseAsset": "ALGO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.316
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.3162
+      }
+    ]
+  },
+  {
+    "baseAsset": "GTO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01767
+      }
+    ]
+  },
+  {
+    "baseAsset": "DOGE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.05976
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.05976
+      }
+    ]
+  },
+  {
+    "baseAsset": "DUSK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1185
+      }
+    ]
+  },
+  {
+    "baseAsset": "ANKR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02822
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.02819
+      }
+    ]
+  },
+  {
+    "baseAsset": "WIN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0001061
+      }
+    ]
+  },
+  {
+    "baseAsset": "COS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00559
+      }
+    ]
+  },
+  {
+    "baseAsset": "COCOS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.5721
+      }
+    ]
+  },
+  {
+    "baseAsset": "MTL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.021
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.025
+      }
+    ]
+  },
+  {
+    "baseAsset": "TOMO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.4163
+      }
+    ]
+  },
+  {
+    "baseAsset": "PERL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01896
+      }
+    ]
+  },
+  {
+    "baseAsset": "DENT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.000894
+      }
+    ]
+  },
+  {
+    "baseAsset": "MFT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.004707
+      }
+    ]
+  },
+  {
+    "baseAsset": "KEY",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.004099
+      }
+    ]
+  },
+  {
+    "baseAsset": "DOCK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01879
+      }
+    ]
+  },
+  {
+    "baseAsset": "WAN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1752
+      }
+    ]
+  },
+  {
+    "baseAsset": "FUN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00723
+      }
+    ]
+  },
+  {
+    "baseAsset": "CVC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1217
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1215
+      }
+    ]
+  },
+  {
+    "baseAsset": "CHZ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1905
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1903
+      }
+    ]
+  },
+  {
+    "baseAsset": "BAND",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.104
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.104
+      }
+    ]
+  },
+  {
+    "baseAsset": "BEAM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1676
+      }
+    ]
+  },
+  {
+    "baseAsset": "XTZ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.351
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.351
+      }
+    ]
+  },
+  {
+    "baseAsset": "REN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1136
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1138
+      }
+    ]
+  },
+  {
+    "baseAsset": "RVN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.03271
+      }
+    ]
+  },
+  {
+    "baseAsset": "HBAR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0651
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": null
+      }
+    ]
+  },
+  {
+    "baseAsset": "NKN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0851
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0852
+      }
+    ]
+  },
+  {
+    "baseAsset": "STX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.311
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.3116
+      }
+    ]
+  },
+  {
+    "baseAsset": "KAVA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.449
+      }
+    ]
+  },
+  {
+    "baseAsset": "ARPA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.03255
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0325
+      }
+    ]
+  },
+  {
+    "baseAsset": "IOTX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02747
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.03102
+      }
+    ]
+  },
+  {
+    "baseAsset": "RLC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.1
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.1006
+      }
+    ]
+  },
+  {
+    "baseAsset": "CTXC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0991
+      }
+    ]
+  },
+  {
+    "baseAsset": "BCH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 112
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 112.03
+      }
+    ]
+  },
+  {
+    "baseAsset": "TROY",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.003611
+      }
+    ]
+  },
+  {
+    "baseAsset": "VITE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02677
+      }
+    ]
+  },
+  {
+    "baseAsset": "FTT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 23.3
+      }
+    ]
+  },
+  {
+    "baseAsset": "OGN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.143
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.14319
+      }
+    ]
+  },
+  {
+    "baseAsset": "DREP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.4046
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4043
+      }
+    ]
+  },
+  {
+    "baseAsset": "TCT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00614
+      }
+    ]
+  },
+  {
+    "baseAsset": "WRX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1923
+      }
+    ]
+  },
+  {
+    "baseAsset": "BTS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01022
+      }
+    ]
+  },
+  {
+    "baseAsset": "LSK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.918
+      }
+    ]
+  },
+  {
+    "baseAsset": "BNT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.427
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4277
+      }
+    ]
+  },
+  {
+    "baseAsset": "LTO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0705
+      }
+    ]
+  },
+  {
+    "baseAsset": "AION",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.03425
+      }
+    ]
+  },
+  {
+    "baseAsset": "MBL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.003384
+      }
+    ]
+  },
+  {
+    "baseAsset": "COTI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1033
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1033
+      }
+    ]
+  },
+  {
+    "baseAsset": "STPT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.04127
+      }
+    ]
+  },
+  {
+    "baseAsset": "WTC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2964
+      }
+    ]
+  },
+  {
+    "baseAsset": "DATA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02894
+      }
+    ]
+  },
+  {
+    "baseAsset": "SOL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 31.12
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 31.14
+      }
+    ]
+  },
+  {
+    "baseAsset": "CTSI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1347
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1345
+      }
+    ]
+  },
+  {
+    "baseAsset": "HIVE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.5071
+      }
+    ]
+  },
+  {
+    "baseAsset": "CHR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1481
+      }
+    ]
+  },
+  {
+    "baseAsset": "ARDR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0946
+      }
+    ]
+  },
+  {
+    "baseAsset": "MDT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02543
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.02537
+      }
+    ]
+  },
+  {
+    "baseAsset": "STMX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.006905
+      }
+    ]
+  },
+  {
+    "baseAsset": "KNC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.023
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.023
+      }
+    ]
+  },
+  {
+    "baseAsset": "REP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 6.84
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 7.42
+      }
+    ]
+  },
+  {
+    "baseAsset": "LRC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2659
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.2657
+      }
+    ]
+  },
+  {
+    "baseAsset": "PNT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2171
+      }
+    ]
+  },
+  {
+    "baseAsset": "COMP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 55.54
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 55.56
+      }
+    ]
+  },
+  {
+    "baseAsset": "SC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00335
+      }
+    ]
+  },
+  {
+    "baseAsset": "ZEN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 12.51
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 12.49
+      }
+    ]
+  },
+  {
+    "baseAsset": "SNX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.072
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 2.073
+      }
+    ]
+  },
+  {
+    "baseAsset": "VTHO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.001335
+      }
+    ]
+  },
+  {
+    "baseAsset": "DGB",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00885
+      }
+    ]
+  },
+  {
+    "baseAsset": "SXP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3233
+      }
+    ]
+  },
+  {
+    "baseAsset": "MKR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 938
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 936.04
+      }
+    ]
+  },
+  {
+    "baseAsset": "DCR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 24.6
+      }
+    ]
+  },
+  {
+    "baseAsset": "STORJ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.4196
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4192
+      }
+    ]
+  },
+  {
+    "baseAsset": "MANA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.6505
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.6506
+      }
+    ]
+  },
+  {
+    "baseAsset": "YFI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 7823
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 7826.97
+      }
+    ]
+  },
+  {
+    "baseAsset": "BAL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.95
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 4.95
+      }
+    ]
+  },
+  {
+    "baseAsset": "BLZ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0783
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0783
+      }
+    ]
+  },
+  {
+    "baseAsset": "IRIS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01676
+      }
+    ]
+  },
+  {
+    "baseAsset": "KMD",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2382
+      }
+    ]
+  },
+  {
+    "baseAsset": "JST",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02677
+      }
+    ]
+  },
+  {
+    "baseAsset": "SRM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.74
+      }
+    ]
+  },
+  {
+    "baseAsset": "ANT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.614
+      }
+    ]
+  },
+  {
+    "baseAsset": "CRV",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.825
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.8253
+      }
+    ]
+  },
+  {
+    "baseAsset": "SAND",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.7799
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.7795
+      }
+    ]
+  },
+  {
+    "baseAsset": "OCEAN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1545
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.155
+      }
+    ]
+  },
+  {
+    "baseAsset": "NMR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 15.24
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 15.23
+      }
+    ]
+  },
+  {
+    "baseAsset": "DOT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 6.17
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 6.167
+      }
+    ]
+  },
+  {
+    "baseAsset": "LUNA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.7867
+      }
+    ]
+  },
+  {
+    "baseAsset": "RSR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00647
+      }
+    ]
+  },
+  {
+    "baseAsset": "WNXM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 16.1
+      }
+    ]
+  },
+  {
+    "baseAsset": "TRB",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 14.41
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 14.4
+      }
+    ]
+  },
+  {
+    "baseAsset": "SUSHI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.233
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.2301
+      }
+    ]
+  },
+  {
+    "baseAsset": "YFII",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1006.2
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1009.35
+      }
+    ]
+  },
+  {
+    "baseAsset": "KSM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 40.36
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 40.39
+      }
+    ]
+  },
+  {
+    "baseAsset": "EGLD",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 55.51
+      }
+    ]
+  },
+  {
+    "baseAsset": "DIA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.393
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.39176
+      }
+    ]
+  },
+  {
+    "baseAsset": "RUNE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.507
+      }
+    ]
+  },
+  {
+    "baseAsset": "FIO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0408
+      }
+    ]
+  },
+  {
+    "baseAsset": "UMA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.139
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 2.138
+      }
+    ]
+  },
+  {
+    "baseAsset": "WING",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 8.3
+      }
+    ]
+  },
+  {
+    "baseAsset": "UNI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 6.1
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 6.091
+      }
+    ]
+  },
+  {
+    "baseAsset": "NBS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00387
+      }
+    ]
+  },
+  {
+    "baseAsset": "OXT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0926
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0927
+      }
+    ]
+  },
+  {
+    "baseAsset": "SUN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00559
+      }
+    ]
+  },
+  {
+    "baseAsset": "AVAX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 15.98
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 15.99
+      }
+    ]
+  },
+  {
+    "baseAsset": "HNT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.59
+      }
+    ]
+  },
+  {
+    "baseAsset": "FLM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1053
+      }
+    ]
+  },
+  {
+    "baseAsset": "ORN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.025
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.026
+      }
+    ]
+  },
+  {
+    "baseAsset": "UTK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1231
+      }
+    ]
+  },
+  {
+    "baseAsset": "XVS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.66
+      }
+    ]
+  },
+  {
+    "baseAsset": "ALPHA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.111
+      }
+    ]
+  },
+  {
+    "baseAsset": "AAVE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 71.5
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 71.57
+      }
+    ]
+  },
+  {
+    "baseAsset": "NEAR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.155
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 3.154
+      }
+    ]
+  },
+  {
+    "baseAsset": "FIL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.14
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 5.147
+      }
+    ]
+  },
+  {
+    "baseAsset": "INJ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.775
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.782
+      }
+    ]
+  },
+  {
+    "baseAsset": "AUDIO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.187
+      }
+    ]
+  },
+  {
+    "baseAsset": "CTK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.863
+      }
+    ]
+  },
+  {
+    "baseAsset": "AKRO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00336
+      }
+    ]
+  },
+  {
+    "baseAsset": "AXS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 11.53
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 11.52
+      }
+    ]
+  },
+  {
+    "baseAsset": "HARD",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.194
+      }
+    ]
+  },
+  {
+    "baseAsset": "DNT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.038
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0378
+      }
+    ]
+  },
+  {
+    "baseAsset": "STRAX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.537
+      }
+    ]
+  },
+  {
+    "baseAsset": "UNFI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.7
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 5.7
+      }
+    ]
+  },
+  {
+    "baseAsset": "ROSE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.056
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.056
+      }
+    ]
+  },
+  {
+    "baseAsset": "AVA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.711
+      }
+    ]
+  },
+  {
+    "baseAsset": "XEM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0392
+      }
+    ]
+  },
+  {
+    "baseAsset": "SKL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.03609
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0361
+      }
+    ]
+  },
+  {
+    "baseAsset": "GRT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0881
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.088
+      }
+    ]
+  },
+  {
+    "baseAsset": "JUV",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.04
+      }
+    ]
+  },
+  {
+    "baseAsset": "PSG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 6.85
+      }
+    ]
+  },
+  {
+    "baseAsset": "1INCH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.567
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.569
+      }
+    ]
+  },
+  {
+    "baseAsset": "REEF",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.005589
+      }
+    ]
+  },
+  {
+    "baseAsset": "OG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.167
+      }
+    ]
+  },
+  {
+    "baseAsset": "ATM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.68
+      }
+    ]
+  },
+  {
+    "baseAsset": "ASR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.243
+      }
+    ]
+  },
+  {
+    "baseAsset": "CELO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.749
+      }
+    ]
+  },
+  {
+    "baseAsset": "RIF",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0545
+      }
+    ]
+  },
+  {
+    "baseAsset": "BTCST",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 8.74
+      }
+    ]
+  },
+  {
+    "baseAsset": "TRU",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0473
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0474
+      }
+    ]
+  },
+  {
+    "baseAsset": "CKB",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00375
+      }
+    ]
+  },
+  {
+    "baseAsset": "TWT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.9386
+      }
+    ]
+  },
+  {
+    "baseAsset": "FIRO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.321
+      }
+    ]
+  },
+  {
+    "baseAsset": "LIT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.707
+      }
+    ]
+  },
+  {
+    "baseAsset": "SFP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3598
+      }
+    ]
+  },
+  {
+    "baseAsset": "DODO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1179
+      }
+    ]
+  },
+  {
+    "baseAsset": "CAKE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.456
+      }
+    ]
+  },
+  {
+    "baseAsset": "ACM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.157
+      }
+    ]
+  },
+  {
+    "baseAsset": "BADGER",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.38
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 3.38
+      }
+    ]
+  },
+  {
+    "baseAsset": "FIS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3118
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.3126
+      }
+    ]
+  },
+  {
+    "baseAsset": "OM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0393
+      }
+    ]
+  },
+  {
+    "baseAsset": "POND",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00957
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.00953
+      }
+    ]
+  },
+  {
+    "baseAsset": "DEGO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.71
+      }
+    ]
+  },
+  {
+    "baseAsset": "ALICE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.566
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.568
+      }
+    ]
+  },
+  {
+    "baseAsset": "LINA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00738
+      }
+    ]
+  },
+  {
+    "baseAsset": "PERP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.535
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.5357
+      }
+    ]
+  },
+  {
+    "baseAsset": "SUPER",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.121
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.121
+      }
+    ]
+  },
+  {
+    "baseAsset": "CFX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0377
+      }
+    ]
+  },
+  {
+    "baseAsset": "AUTO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 223.7
+      }
+    ]
+  },
+  {
+    "baseAsset": "TKO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.233
+      }
+    ]
+  },
+  {
+    "baseAsset": "PUNDIX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.472
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4697
+      }
+    ]
+  },
+  {
+    "baseAsset": "TLM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02167
+      }
+    ]
+  },
+  {
+    "baseAsset": "BTG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 19.33
+      }
+    ]
+  },
+  {
+    "baseAsset": "MIR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.21244
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.213
+      }
+    ]
+  },
+  {
+    "baseAsset": "BAR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.82
+      }
+    ]
+  },
+  {
+    "baseAsset": "FORTH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.36
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 4.34
+      }
+    ]
+  },
+  {
+    "baseAsset": "BAKE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2232
+      }
+    ]
+  },
+  {
+    "baseAsset": "BURGER",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.83
+      }
+    ]
+  },
+  {
+    "baseAsset": "SLP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00334
+      }
+    ]
+  },
+  {
+    "baseAsset": "SHIB",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00001017
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.00001017
+      }
+    ]
+  },
+  {
+    "baseAsset": "ICP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.09
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 5.094
+      }
+    ]
+  },
+  {
+    "baseAsset": "AR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 8.83
+      }
+    ]
+  },
+  {
+    "baseAsset": "POLS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.436
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4373
+      }
+    ]
+  },
+  {
+    "baseAsset": "MDX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0722
+      }
+    ]
+  },
+  {
+    "baseAsset": "MASK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.098
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.1
+      }
+    ]
+  },
+  {
+    "baseAsset": "LPT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 8.88
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 8.88
+      }
+    ]
+  },
+  {
+    "baseAsset": "XVG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00311
+      }
+    ]
+  },
+  {
+    "baseAsset": "ATA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1444
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1448
+      }
+    ]
+  },
+  {
+    "baseAsset": "GTC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.682
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.68
+      }
+    ]
+  },
+  {
+    "baseAsset": "TORN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.55
+      }
+    ]
+  },
+  {
+    "baseAsset": "ERN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.026
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 3.02
+      }
+    ]
+  },
+  {
+    "baseAsset": "KLAY",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1655
+      }
+    ]
+  },
+  {
+    "baseAsset": "PHA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.08
+      }
+    ]
+  },
+  {
+    "baseAsset": "BOND",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.88
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 4.88
+      }
+    ]
+  },
+  {
+    "baseAsset": "MLN",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 19.02
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 18.96
+      }
+    ]
+  },
+  {
+    "baseAsset": "DEXE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.837
+      }
+    ]
+  },
+  {
+    "baseAsset": "C98",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3424
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.343
+      }
+    ]
+  },
+  {
+    "baseAsset": "CLV",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.07801
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0782
+      }
+    ]
+  },
+  {
+    "baseAsset": "QNT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 155
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 154.99
+      }
+    ]
+  },
+  {
+    "baseAsset": "FLOW",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.555
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.554
+      }
+    ]
+  },
+  {
+    "baseAsset": "TVK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0331
+      }
+    ]
+  },
+  {
+    "baseAsset": "MINA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.553
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.552
+      }
+    ]
+  },
+  {
+    "baseAsset": "RAY",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.513
+      }
+    ]
+  },
+  {
+    "baseAsset": "FARM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 35.5
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 35.48
+      }
+    ]
+  },
+  {
+    "baseAsset": "ALPACA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2818
+      }
+    ]
+  },
+  {
+    "baseAsset": "QUICK",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 58.3
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 58.21
+      }
+    ]
+  },
+  {
+    "baseAsset": "MBOX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.577
+      }
+    ]
+  },
+  {
+    "baseAsset": "FOR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01746
+      }
+    ]
+  },
+  {
+    "baseAsset": "REQ",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0963
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0962
+      }
+    ]
+  },
+  {
+    "baseAsset": "GHST",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.158
+      }
+    ]
+  },
+  {
+    "baseAsset": "WAXP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0823
+      }
+    ]
+  },
+  {
+    "baseAsset": "TRIBE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2128
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.2127
+      }
+    ]
+  },
+  {
+    "baseAsset": "GNO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 109.8
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 110.4
+      }
+    ]
+  },
+  {
+    "baseAsset": "XEC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00003814
+      }
+    ]
+  },
+  {
+    "baseAsset": "ELF",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1266
+      }
+    ]
+  },
+  {
+    "baseAsset": "DYDX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.448
+      }
+    ]
+  },
+  {
+    "baseAsset": "IDEX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.05573
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0558
+      }
+    ]
+  },
+  {
+    "baseAsset": "VIDT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.247
+      }
+    ]
+  },
+  {
+    "baseAsset": "GALA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.03936
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.03934
+      }
+    ]
+  },
+  {
+    "baseAsset": "ILV",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 57.1
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": null
+      }
+    ]
+  },
+  {
+    "baseAsset": "YGG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3315
+      }
+    ]
+  },
+  {
+    "baseAsset": "SYS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1454
+      }
+    ]
+  },
+  {
+    "baseAsset": "DF",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0324
+      }
+    ]
+  },
+  {
+    "baseAsset": "FIDA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.3792
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.378
+      }
+    ]
+  },
+  {
+    "baseAsset": "FRONT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2258
+      }
+    ]
+  },
+  {
+    "baseAsset": "CVP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2959
+      }
+    ]
+  },
+  {
+    "baseAsset": "AGLD",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.313
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.3123
+      }
+    ]
+  },
+  {
+    "baseAsset": "RAD",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.929
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.93
+      }
+    ]
+  },
+  {
+    "baseAsset": "BETA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.09315
+      }
+    ]
+  },
+  {
+    "baseAsset": "RARE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1506
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1508
+      }
+    ]
+  },
+  {
+    "baseAsset": "LAZIO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.8331
+      }
+    ]
+  },
+  {
+    "baseAsset": "CHESS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.245
+      }
+    ]
+  },
+  {
+    "baseAsset": "ADX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1551
+      }
+    ]
+  },
+  {
+    "baseAsset": "AUCTION",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.69
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 5.66
+      }
+    ]
+  },
+  {
+    "baseAsset": "DAR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.19634
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.196
+      }
+    ]
+  },
+  {
+    "baseAsset": "BNX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 157.1
+      }
+    ]
+  },
+  {
+    "baseAsset": "MOVR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 10.41
+      }
+    ]
+  },
+  {
+    "baseAsset": "CITY",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.63
+      }
+    ]
+  },
+  {
+    "baseAsset": "ENS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 17.31
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 17.29
+      }
+    ]
+  },
+  {
+    "baseAsset": "KP3R",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 94.75
+      }
+    ]
+  },
+  {
+    "baseAsset": "QI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00837
+      }
+    ]
+  },
+  {
+    "baseAsset": "PORTO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.1895
+      }
+    ]
+  },
+  {
+    "baseAsset": "POWR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1858
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.1858
+      }
+    ]
+  },
+  {
+    "baseAsset": "VGX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.423
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4221
+      }
+    ]
+  },
+  {
+    "baseAsset": "JASMY",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00551
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.00552
+      }
+    ]
+  },
+  {
+    "baseAsset": "AMP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00486
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.00486
+      }
+    ]
+  },
+  {
+    "baseAsset": "PLA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.298
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.2979
+      }
+    ]
+  },
+  {
+    "baseAsset": "PYR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.95
+      }
+    ]
+  },
+  {
+    "baseAsset": "RNDR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.416
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4173
+      }
+    ]
+  },
+  {
+    "baseAsset": "ALCX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 19.6
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 19.65
+      }
+    ]
+  },
+  {
+    "baseAsset": "SANTOS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 13.596
+      }
+    ]
+  },
+  {
+    "baseAsset": "MC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.616
+      }
+    ]
+  },
+  {
+    "baseAsset": "BICO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.372
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.3706
+      }
+    ]
+  },
+  {
+    "baseAsset": "FLUX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.728
+      }
+    ]
+  },
+  {
+    "baseAsset": "FXS",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.897
+      }
+    ]
+  },
+  {
+    "baseAsset": "VOXEL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2281
+      }
+    ]
+  },
+  {
+    "baseAsset": "HIGH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.409
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.405
+      }
+    ]
+  },
+  {
+    "baseAsset": "CVX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 5.933
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 5.962
+      }
+    ]
+  },
+  {
+    "baseAsset": "PEOPLE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.02144
+      }
+    ]
+  },
+  {
+    "baseAsset": "OOKI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00418
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.004199
+      }
+    ]
+  },
+  {
+    "baseAsset": "SPELL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0009237
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.0009234
+      }
+    ]
+  },
+  {
+    "baseAsset": "JOE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.202
+      }
+    ]
+  },
+  {
+    "baseAsset": "ACH",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.01048
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.010497
+      }
+    ]
+  },
+  {
+    "baseAsset": "IMX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.672
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.6729
+      }
+    ]
+  },
+  {
+    "baseAsset": "GLMR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.4516
+      }
+    ]
+  },
+  {
+    "baseAsset": "LOKA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.515
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.5151
+      }
+    ]
+  },
+  {
+    "baseAsset": "SCRT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.874
+      }
+    ]
+  },
+  {
+    "baseAsset": "API3",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.589
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 1.59
+      }
+    ]
+  },
+  {
+    "baseAsset": "BTTC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 7.7e-7
+      }
+    ]
+  },
+  {
+    "baseAsset": "ACA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1656
+      }
+    ]
+  },
+  {
+    "baseAsset": "ANC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.09145
+      }
+    ]
+  },
+  {
+    "baseAsset": "XNO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.762
+      }
+    ]
+  },
+  {
+    "baseAsset": "WOO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.1512
+      }
+    ]
+  },
+  {
+    "baseAsset": "ALPINE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.0846
+      }
+    ]
+  },
+  {
+    "baseAsset": "T",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0288
+      }
+    ]
+  },
+  {
+    "baseAsset": "ASTR",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.035
+      }
+    ]
+  },
+  {
+    "baseAsset": "GMT",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.627
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.6284
+      }
+    ]
+  },
+  {
+    "baseAsset": "KDA",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.34
+      }
+    ]
+  },
+  {
+    "baseAsset": "APE",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 4.71
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 4.712
+      }
+    ]
+  },
+  {
+    "baseAsset": "BSW",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.2416
+      }
+    ]
+  },
+  {
+    "baseAsset": "BIFI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 315.7
+      }
+    ]
+  },
+  {
+    "baseAsset": "MULTI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 3.66
+      }
+    ]
+  },
+  {
+    "baseAsset": "STEEM",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.229
+      }
+    ]
+  },
+  {
+    "baseAsset": "MOB",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.865
+      }
+    ]
+  },
+  {
+    "baseAsset": "NEXO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.827
+      }
+    ]
+  },
+  {
+    "baseAsset": "REI",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.0297
+      }
+    ]
+  },
+  {
+    "baseAsset": "GAL",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 2.369
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 2.368
+      }
+    ]
+  },
+  {
+    "baseAsset": "LDO",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 1.277
+      }
+    ]
+  },
+  {
+    "baseAsset": "EPX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.000472
+      }
+    ]
+  },
+  {
+    "baseAsset": "OP",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.747
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.747
+      }
+    ]
+  },
+  {
+    "baseAsset": "LEVER",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.001583
+      }
+    ]
+  },
+  {
+    "baseAsset": "STG",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.448
+      },
+      {
+        "exchange": {
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/"
+        },
+        "price": 0.4489
+      }
+    ]
+  },
+  {
+    "baseAsset": "LUNC",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 0.00028628
+      }
+    ]
+  },
+  {
+    "baseAsset": "GMX",
+    "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol="
+        },
+        "price": 38.54
+      }
+    ]
+  }
+]
