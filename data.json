@@ -4,14 +4,32 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=BTCUSDT&limit=1"
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/BTC-USD/ticker"
         }
       },
       {
         "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=btcusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=BTCUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BTC_USDT"
         }
       },
       {
@@ -24,24 +42,6 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/BTC/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=btcusdt&size=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Coinbase Exchange",
-          "tickerEndpoint": "https://api.exchange.coinbase.com/products/BTC-USD/ticker"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BTC_USDT"
         }
       }
     ]
@@ -57,26 +57,26 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/ETH/USD"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/ETH-USD/ticker"
         }
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ETHUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ethusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/ETH/USD"
         }
       },
       {
@@ -104,14 +104,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=bnbusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BNBUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BNBUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=bnbusdt&size=1"
         }
       },
       {
@@ -180,14 +180,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ltcusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=LTCUSDT"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/LTC/USD"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ltcusdt&size=1"
         }
       },
       {
@@ -198,8 +198,8 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=LTCUSDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/LTC/USD"
         }
       },
       {
@@ -221,8 +221,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=QTUMUSDT&limit=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=QTUMUSDT"
         }
       },
       {
@@ -233,8 +233,8 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=QTUMUSDT"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=QTUMUSDT&limit=1"
         }
       },
       {
@@ -256,14 +256,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=adausdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ADAUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ADAUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=adausdt&size=1"
         }
       },
       {
@@ -356,14 +356,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/EOS_USDT"
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/EOS-USD/ticker"
         }
       },
       {
         "exchange": {
-          "name": "Coinbase Exchange",
-          "tickerEndpoint": "https://api.exchange.coinbase.com/products/EOS-USD/ticker"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/EOS_USDT"
         }
       }
     ]
@@ -373,8 +373,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=iotausdt&size=1"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=IOTAUSDT&limit=1"
         }
       },
       {
@@ -385,8 +385,8 @@
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=IOTAUSDT&limit=1"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=iotausdt&size=1"
         }
       },
       {
@@ -414,14 +414,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xlmusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XLMUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XLMUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xlmusdt&size=1"
         }
       },
       {
@@ -461,14 +461,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ONT-USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ontusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ontusdt&size=1"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ONT-USDT"
         }
       },
       {
@@ -502,14 +502,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TRX-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/TRX/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/TRX/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TRX-USDT"
         }
       },
       {
@@ -572,14 +572,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=icxusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ICXUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ICXUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=icxusdt&size=1"
         }
       },
       {
@@ -689,14 +689,14 @@
       },
       {
         "exchange": {
-          "name": "Coinbase Exchange",
-          "tickerEndpoint": "https://api.exchange.coinbase.com/products/LINK-USD/ticker"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/LINK_USDT"
         }
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/LINK_USDT"
+          "name": "Coinbase Exchange",
+          "tickerEndpoint": "https://api.exchange.coinbase.com/products/LINK-USD/ticker"
         }
       }
     ]
@@ -708,6 +708,12 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=WAVESUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WAVESUSDT"
         }
       },
       {
@@ -732,12 +738,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/WAVES_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WAVESUSDT"
         }
       }
     ]
@@ -770,6 +770,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HOTUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=hotusdt&size=1"
         }
@@ -778,12 +784,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/HOT_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HOTUSDT"
         }
       }
     ]
@@ -805,6 +805,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=zilusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ZIL-USDT"
         }
@@ -813,12 +819,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ZIL_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=zilusdt&size=1"
         }
       }
     ]
@@ -830,6 +830,12 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ZRXUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=zrxusdt&size=1"
         }
       },
       {
@@ -854,12 +860,6 @@
         "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/ZRX-USD/ticker"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=zrxusdt&size=1"
         }
       }
     ]
@@ -898,14 +898,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=batusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BATUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BATUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=batusdt&size=1"
         }
       },
       {
@@ -945,12 +945,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XMRUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XMR-USDT"
         }
@@ -960,18 +954,18 @@
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/XMR_USDT"
         }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XMRUSDT"
+        }
       }
     ]
   },
   {
     "baseAsset": "ZEC",
     "exchanges": [
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ZECUSDT&limit=1"
-        }
-      },
       {
         "exchange": {
           "name": "Binance",
@@ -982,6 +976,12 @@
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ZEC-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ZECUSDT&limit=1"
         }
       },
       {
@@ -1015,12 +1015,6 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/IOST_USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=iostusdt&size=1"
         }
@@ -1029,6 +1023,12 @@
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=IOST-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/IOST_USDT"
         }
       }
     ]
@@ -1079,12 +1079,6 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/DASH_USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DASHUSDT"
         }
@@ -1093,6 +1087,12 @@
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DASH-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/DASH_USDT"
         }
       },
       {
@@ -1110,18 +1110,6 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=OMGUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/OMG/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/OMG_USDT"
         }
       },
       {
@@ -1144,6 +1132,18 @@
       },
       {
         "exchange": {
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/OMG/USD"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/OMG_USDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/OMG-USD/ticker"
         }
@@ -1153,6 +1153,18 @@
   {
     "baseAsset": "THETA",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=THETAUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=THETAUSDT"
+        }
+      },
       {
         "exchange": {
           "name": "Huobi",
@@ -1170,18 +1182,6 @@
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/THETA_USDT"
         }
-      },
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=THETAUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=THETAUSDT"
-        }
       }
     ]
   },
@@ -1190,8 +1190,26 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ENJUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ENJUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=enjusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/ENJ/USD"
         }
       },
       {
@@ -1208,26 +1226,8 @@
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ENJUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ENJUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/ENJ-USD/ticker"
-        }
-      },
-      {
-        "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/ENJ/USD"
         }
       }
     ]
@@ -1254,6 +1254,18 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=MATICUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MATICUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=maticusdt&size=1"
         }
@@ -1278,18 +1290,6 @@
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=MATICUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MATICUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/MATIC-USD/ticker"
         }
@@ -1301,14 +1301,20 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ATOMUSDT"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ATOMUSDT&limit=1"
         }
       },
       {
         "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=atomusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ATOMUSDT"
         }
       },
       {
@@ -1327,12 +1333,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ATOM_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ATOMUSDT&limit=1"
         }
       },
       {
@@ -1371,6 +1371,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ONEUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ONEUSDT"
         }
@@ -1383,20 +1389,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ONE_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ONEUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ONE-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ONE_USDT"
         }
       }
     ]
@@ -1404,12 +1404,6 @@
   {
     "baseAsset": "FTM",
     "exchanges": [
-      {
-        "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/FTM_USDT"
-        }
-      },
       {
         "exchange": {
           "name": "Bybit",
@@ -1439,18 +1433,18 @@
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/FTM/USD"
         }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/FTM_USDT"
+        }
       }
     ]
   },
   {
     "baseAsset": "ALGO",
     "exchanges": [
-      {
-        "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ALGO-USDT"
-        }
-      },
       {
         "exchange": {
           "name": "Bybit",
@@ -1477,6 +1471,12 @@
       },
       {
         "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ALGO-USDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ALGO_USDT"
         }
@@ -1494,14 +1494,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/GTO_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GTOUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GTOUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/GTO_USDT"
         }
       }
     ]
@@ -1511,8 +1511,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DOGEUSDT"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=DOGEUSDT&limit=1"
         }
       },
       {
@@ -1541,8 +1541,8 @@
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=DOGEUSDT&limit=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DOGEUSDT"
         }
       },
       {
@@ -1558,6 +1558,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=DUSKUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DUSKUSDT"
         }
@@ -1566,12 +1572,6 @@
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DUSK-USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=DUSKUSDT&limit=1"
         }
       },
       {
@@ -1587,14 +1587,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ankrusdt&size=1"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ANKRUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ANKRUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ankrusdt&size=1"
         }
       },
       {
@@ -1605,14 +1605,14 @@
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ANKRUSDT&limit=1"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ANKR_USDT"
         }
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ANKR_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ANKRUSDT"
         }
       },
       {
@@ -1657,14 +1657,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/COS_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=COSUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=COSUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/COS_USDT"
         }
       }
     ]
@@ -1697,14 +1697,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MTLUSDT"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=MTLUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=MTLUSDT&limit=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MTLUSDT"
         }
       },
       {
@@ -1721,14 +1721,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MTL_USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/MTL/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/MTL/USD"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MTL_USDT"
         }
       },
       {
@@ -1742,12 +1742,6 @@
   {
     "baseAsset": "TOMO",
     "exchanges": [
-      {
-        "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TOMO-USDT"
-        }
-      },
       {
         "exchange": {
           "name": "Bybit",
@@ -1764,6 +1758,12 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/TOMO/USD"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TOMO-USDT"
         }
       },
       {
@@ -1796,6 +1796,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=DENTUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DENTUSDT"
         }
@@ -1804,12 +1810,6 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/DENT/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=DENTUSDT&limit=1"
         }
       },
       {
@@ -1865,14 +1865,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=dockusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DOCKUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DOCKUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=dockusdt&size=1"
         }
       },
       {
@@ -1928,12 +1928,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CVCUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=cvcusdt&size=1"
         }
@@ -1948,6 +1942,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CVC_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CVCUSDT"
         }
       },
       {
@@ -1987,14 +1987,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CHZ_USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/CHZ/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/CHZ/USD"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CHZ_USDT"
         }
       },
       {
@@ -2080,12 +2080,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XTZUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xtzusdt&size=1"
         }
@@ -2100,6 +2094,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/XTZ_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XTZUSDT"
         }
       },
       {
@@ -2168,6 +2168,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=RVNUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=rvnusdt&size=1"
         }
@@ -2183,12 +2189,6 @@
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/RVN_USDT"
         }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=RVNUSDT"
-        }
       }
     ]
   },
@@ -2199,12 +2199,6 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=HBARUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HBARUSDT"
         }
       },
       {
@@ -2223,6 +2217,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/HBAR_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HBARUSDT"
         }
       },
       {
@@ -2279,6 +2279,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=STXUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=STX-USDT"
         }
@@ -2287,12 +2293,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/STX_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=STXUSDT"
         }
       },
       {
@@ -2425,14 +2425,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=RLCUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=rlcusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=rlcusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=RLCUSDT"
         }
       },
       {
@@ -2501,14 +2501,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/BCH/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BCH-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BCH-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/BCH/USD"
         }
       },
       {
@@ -2582,14 +2582,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/FTT/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FTT-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FTT-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/FTT/USD"
         }
       },
       {
@@ -2611,14 +2611,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ognusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OGNUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OGNUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ognusdt&size=1"
         }
       },
       {
@@ -2686,6 +2686,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WRXUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=WRX-USDT"
         }
@@ -2701,18 +2707,18 @@
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/WRX_USDT"
         }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WRXUSDT"
-        }
       }
     ]
   },
   {
     "baseAsset": "BTS",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BTSUSDT"
+        }
+      },
       {
         "exchange": {
           "name": "Huobi",
@@ -2723,12 +2729,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BTS_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BTSUSDT"
         }
       }
     ]
@@ -2819,14 +2819,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/AION_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AIONUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AIONUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/AION_USDT"
         }
       }
     ]
@@ -2836,8 +2836,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MBLUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mblusdt&size=1"
         }
       },
       {
@@ -2854,8 +2854,8 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mblusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MBLUSDT"
         }
       }
     ]
@@ -2993,14 +2993,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/SOL/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SOL-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/SOL/USD"
         }
       },
       {
@@ -3092,26 +3092,26 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CHRUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=chrusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/CHR/USD"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CHRUSDT"
         }
       },
       {
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=CHR-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/CHR/USD"
         }
       },
       {
@@ -3430,6 +3430,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ZENUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ZEN-USDT"
         }
@@ -3438,12 +3444,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ZEN_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ZENUSDT"
         }
       },
       {
@@ -3663,14 +3663,14 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=STORJUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=storjusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=storjusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=STORJUSDT"
         }
       },
       {
@@ -3757,20 +3757,8 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=YFIUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=yfiusdt&size=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=YFI-USDT"
         }
       },
       {
@@ -3781,8 +3769,20 @@
       },
       {
         "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=YFI-USDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/YFI_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=YFIUSDT"
         }
       },
       {
@@ -3810,26 +3810,26 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/BAL/USD"
-        }
-      },
-      {
-        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BAL-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BALUSDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/BAL/USD"
         }
       },
       {
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BAL_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BALUSDT"
         }
       },
       {
@@ -3944,14 +3944,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=JST-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/JST/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/JST/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=JST-USDT"
         }
       },
       {
@@ -3985,14 +3985,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SRM-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/SRM/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/SRM/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SRM-USDT"
         }
       },
       {
@@ -4020,6 +4020,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=antusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ANT-USDT"
         }
@@ -4028,12 +4034,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ANT_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=antusdt&size=1"
         }
       }
     ]
@@ -4143,14 +4143,14 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OCEANUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=oceanusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=oceanusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OCEANUSDT"
         }
       },
       {
@@ -4213,6 +4213,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DOTUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=dotusdt&size=1"
         }
@@ -4233,12 +4239,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/DOT_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DOTUSDT"
         }
       },
       {
@@ -4324,12 +4324,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WNXMUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=wnxmusdt&size=1"
         }
@@ -4344,6 +4338,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/WNXM_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WNXMUSDT"
         }
       }
     ]
@@ -4400,26 +4400,26 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SUSHIUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=sushiusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/SUSHI/USD"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SUSHIUSDT"
         }
       },
       {
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SUSHI-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/SUSHI/USD"
         }
       },
       {
@@ -4447,12 +4447,6 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=yfiiusdt&size=1"
-        }
-      },
-      {
-        "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/YFII/USD"
         }
@@ -4461,6 +4455,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/YFII_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=yfiiusdt&size=1"
         }
       },
       {
@@ -4558,6 +4558,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=diausdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DIA-USDT"
         }
@@ -4566,12 +4572,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/DIA_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=diausdt&size=1"
         }
       },
       {
@@ -4599,14 +4599,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/RUNE/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=RUNE-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=RUNE-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/RUNE/USD"
         }
       },
       {
@@ -4651,14 +4651,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UMA-USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=umausdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=umausdt&size=1"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UMA-USDT"
         }
       },
       {
@@ -4709,14 +4709,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNI-USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=uniusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=uniusdt&size=1"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNI-USDT"
         }
       },
       {
@@ -4767,6 +4767,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=oxtusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OXTUSDT"
         }
@@ -4775,12 +4781,6 @@
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=OXT-USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=oxtusdt&size=1"
         }
       },
       {
@@ -4808,6 +4808,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=sunusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SUNUSDT"
         }
@@ -4822,12 +4828,6 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/SUN/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=sunusdt&size=1"
         }
       },
       {
@@ -4855,6 +4855,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=avaxusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AVAX-USDT"
         }
@@ -4863,12 +4869,6 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/AVAX/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=avaxusdt&size=1"
         }
       },
       {
@@ -4925,14 +4925,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=FLMUSDT"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=FLMUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=FLMUSDT&limit=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=FLMUSDT"
         }
       },
       {
@@ -4948,6 +4948,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ORNUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ORN-USDT"
         }
@@ -4956,12 +4962,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ORN_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ORNUSDT"
         }
       },
       {
@@ -4977,14 +4977,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=utkusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=UTKUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=UTKUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=utkusdt&size=1"
         }
       },
       {
@@ -5023,14 +5023,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ALPHAUSDT"
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ALPHAUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ALPHAUSDT&limit=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ALPHAUSDT"
         }
       },
       {
@@ -5058,20 +5058,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AAVEUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=AAVEUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AAVE-USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AAVEUSDT"
         }
       },
       {
@@ -5084,6 +5078,12 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/AAVE/USD"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AAVE-USDT"
         }
       },
       {
@@ -5117,14 +5117,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/NEAR/USD"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=nearusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=nearusdt&size=1"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/NEAR/USD"
         }
       },
       {
@@ -5152,26 +5152,26 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=FILUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=FILUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FIL-USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=FILUSDT"
         }
       },
       {
         "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=filusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FIL-USDT"
         }
       },
       {
@@ -5240,6 +5240,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AUDIOUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=audiousdt&size=1"
         }
@@ -5260,12 +5266,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/AUDIO_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AUDIOUSDT"
         }
       }
     ]
@@ -5316,14 +5316,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/AKRO/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AKRO-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AKRO-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/AKRO/USD"
         }
       },
       {
@@ -5357,14 +5357,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AXS-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/AXS/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/AXS/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AXS-USDT"
         }
       },
       {
@@ -5386,6 +5386,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HARDUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=HARD-USDT"
         }
@@ -5394,12 +5400,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/HARD_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HARDUSDT"
         }
       }
     ]
@@ -5461,14 +5461,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNFI-USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=unfiusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=unfiusdt&size=1"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=UNFI-USDT"
         }
       },
       {
@@ -5496,12 +5496,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ROSEUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ROSE-USDT"
         }
@@ -5510,6 +5504,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ROSE_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ROSEUSDT"
         }
       },
       {
@@ -5548,26 +5548,26 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XEMUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=XEMUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XEM-USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xemusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xemusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XEMUSDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XEM-USDT"
         }
       },
       {
@@ -5583,14 +5583,20 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=SKLUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SKLUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=SKLUSDT&limit=1"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=sklusdt&size=1"
         }
       },
       {
@@ -5603,12 +5609,6 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/SKL/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=sklusdt&size=1"
         }
       },
       {
@@ -5630,20 +5630,20 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GRTUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=GRTUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=GRT-USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GRTUSDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=grtusdt&size=1"
         }
       },
       {
@@ -5654,8 +5654,8 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=grtusdt&size=1"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=GRT-USDT"
         }
       },
       {
@@ -5700,8 +5700,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/PSG/USD"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PSGUSDT"
         }
       },
       {
@@ -5712,14 +5712,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/PSG_USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/PSG/USD"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PSGUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/PSG_USDT"
         }
       }
     ]
@@ -5729,20 +5729,20 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=1INCHUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=1INCHUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=1INCH-USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=1INCHUSDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=1inchusdt&size=1"
         }
       },
       {
@@ -5753,8 +5753,8 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=1inchusdt&size=1"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=1INCH-USDT"
         }
       },
       {
@@ -5776,20 +5776,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=REEFUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=REEFUSDT&limit=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=REEF-USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=REEFUSDT"
         }
       },
       {
@@ -5806,6 +5800,12 @@
       },
       {
         "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=REEF-USDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/REEF_USDT"
         }
@@ -5817,12 +5817,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/OG_USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OGUSDT"
         }
@@ -5831,6 +5825,12 @@
         "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ogusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/OG_USDT"
         }
       }
     ]
@@ -5932,14 +5932,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BTCST_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BTCSTUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BTCSTUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BTCST_USDT"
         }
       }
     ]
@@ -5947,6 +5947,12 @@
   {
     "baseAsset": "TRU",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TRUUSDT"
+        }
+      },
       {
         "exchange": {
           "name": "Kucoin",
@@ -5963,12 +5969,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/TRU_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TRUUSDT"
         }
       },
       {
@@ -5996,6 +5996,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ckbusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=CKB-USDT"
         }
@@ -6005,18 +6011,18 @@
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CKB_USDT"
         }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ckbusdt&size=1"
-        }
       }
     ]
   },
   {
     "baseAsset": "TWT",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TWTUSDT"
+        }
+      },
       {
         "exchange": {
           "name": "Kucoin",
@@ -6027,12 +6033,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/TWT_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TWTUSDT"
         }
       }
     ]
@@ -6094,6 +6094,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SFPUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SFP-USDT"
         }
@@ -6102,12 +6108,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/SFP_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SFPUSDT"
         }
       }
     ]
@@ -6123,14 +6123,14 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DODOUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=dodousdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=dodousdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DODOUSDT"
         }
       },
       {
@@ -6158,18 +6158,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=CAKE-USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CAKE_USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CAKEUSDT"
         }
@@ -6179,6 +6167,18 @@
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=cakeusdt&size=1"
         }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=CAKE-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CAKE_USDT"
+        }
       }
     ]
   },
@@ -6187,14 +6187,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ACM_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ACMUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ACMUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ACM_USDT"
         }
       }
     ]
@@ -6204,14 +6204,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=badgerusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BADGERUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BADGER-USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=badgerusdt&size=1"
         }
       },
       {
@@ -6222,14 +6222,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BADGER_USDT"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BADGER-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BADGERUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BADGER_USDT"
         }
       },
       {
@@ -6245,6 +6245,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=FISUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=fisusdt&size=1"
         }
@@ -6253,12 +6259,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/FIS_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=FISUSDT"
         }
       },
       {
@@ -6361,14 +6361,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=aliceusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ALICEUSDT"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/ALICE/USD"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=aliceusdt&size=1"
         }
       },
       {
@@ -6379,14 +6379,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ALICE_USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/ALICE/USD"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ALICEUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ALICE_USDT"
         }
       },
       {
@@ -6443,6 +6443,18 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PERPUSDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=perpusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=PERP-USDT"
         }
@@ -6461,18 +6473,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PERPUSDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=perpusdt&size=1"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/PERP-USD/ticker"
         }
@@ -6484,8 +6484,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=superusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SUPERUSDT"
         }
       },
       {
@@ -6502,8 +6502,8 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SUPERUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=superusdt&size=1"
         }
       },
       {
@@ -6588,6 +6588,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PUNDIXUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=PUNDIX-USDT"
         }
@@ -6606,12 +6612,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PUNDIXUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/PUNDIX-USD/ticker"
         }
@@ -6621,6 +6621,12 @@
   {
     "baseAsset": "TLM",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=TLMUSDT&limit=1"
+        }
+      },
       {
         "exchange": {
           "name": "Binance",
@@ -6643,12 +6649,6 @@
         "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/TLM/USD"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=TLMUSDT&limit=1"
         }
       },
       {
@@ -6681,18 +6681,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MIR-USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MIR_USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MIRUSDT"
         }
@@ -6701,6 +6689,18 @@
         "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mirusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MIR-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MIR_USDT"
         }
       },
       {
@@ -6803,6 +6803,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BURGERUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BURGER-USDT"
         }
@@ -6811,12 +6817,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BURGER_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BURGERUSDT"
         }
       }
     ]
@@ -6838,14 +6838,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SLP-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/SLP/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/SLP/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SLP-USDT"
         }
       },
       {
@@ -6873,14 +6873,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/SHIB/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SHIB-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=SHIB-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/SHIB/USD"
         }
       },
       {
@@ -6908,6 +6908,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ICPUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=icpusdt&size=1"
         }
@@ -6922,12 +6928,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ICP_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ICPUSDT"
         }
       },
       {
@@ -6949,6 +6949,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ARUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=arusdt&size=1"
         }
@@ -6963,12 +6969,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/AR_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ARUSDT"
         }
       }
     ]
@@ -7013,8 +7013,8 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mdxusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MDXUSDT"
         }
       },
       {
@@ -7025,8 +7025,8 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MDXUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mdxusdt&size=1"
         }
       }
     ]
@@ -7038,6 +7038,12 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=MASKUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MASKUSDT"
         }
       },
       {
@@ -7056,12 +7062,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MASK_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MASKUSDT"
         }
       },
       {
@@ -7183,7 +7183,7 @@
       {
         "exchange": {
           "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/GTC_USDT"
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/GITCOIN_USDT"
         }
       },
       {
@@ -7199,14 +7199,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TORNUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/TORN_USDT"
         }
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/TORN_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TORNUSDT"
         }
       }
     ]
@@ -7344,6 +7344,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MLNUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mlnusdt&size=1"
         }
@@ -7362,12 +7368,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MLNUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/MLN-USD/ticker"
         }
@@ -7377,6 +7377,12 @@
   {
     "baseAsset": "DEXE",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DEXEUSDT"
+        }
+      },
       {
         "exchange": {
           "name": "Huobi",
@@ -7393,12 +7399,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/DEXE_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DEXEUSDT"
         }
       }
     ]
@@ -7420,6 +7420,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=C98USDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/C98/USD"
         }
@@ -7434,12 +7440,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/C98_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=C98USDT"
         }
       },
       {
@@ -7566,12 +7566,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TVKUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=TVK-USDT"
         }
@@ -7580,6 +7574,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/TVK_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=TVKUSDT"
         }
       }
     ]
@@ -7595,14 +7595,14 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MINAUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=minausdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=minausdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MINAUSDT"
         }
       },
       {
@@ -7786,14 +7786,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=requsdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=REQUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=REQUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=requsdt&size=1"
         }
       },
       {
@@ -7821,14 +7821,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GHSTUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ghstusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ghstusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GHSTUSDT"
         }
       },
       {
@@ -7908,14 +7908,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GNOUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=gnousdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=gnousdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GNOUSDT"
         }
       },
       {
@@ -7937,6 +7937,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XECUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xecusdt&size=1"
         }
@@ -7951,12 +7957,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/XEC_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XECUSDT"
         }
       }
     ]
@@ -8065,6 +8065,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=VIDTUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=VIDT-USDT"
         }
@@ -8073,12 +8079,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/VIDT_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=VIDTUSDT"
         }
       }
     ]
@@ -8090,6 +8090,12 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=GALAUSDT&limit=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GALAUSDT"
         }
       },
       {
@@ -8112,12 +8118,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GALAUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/GALA-USD/ticker"
         }
@@ -8129,12 +8129,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Bybit",
-          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ILVUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ILVUSDT"
         }
@@ -8143,6 +8137,12 @@
         "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ILV-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Bybit",
+          "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=ILVUSDT&limit=1"
         }
       },
       {
@@ -8205,6 +8205,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SYSUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=sysusdt&size=1"
         }
@@ -8219,12 +8225,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/SYS_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SYSUSDT"
         }
       }
     ]
@@ -8263,14 +8263,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/FIDA/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FIDA-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FIDA-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/FIDA/USD"
         }
       },
       {
@@ -8304,14 +8304,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/FRONT/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FRONT-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FRONT-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/FRONT/USD"
         }
       },
       {
@@ -8362,6 +8362,12 @@
       },
       {
         "exchange": {
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=agldusdt&size=1"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=AGLD-USDT"
         }
@@ -8376,12 +8382,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/AGLD_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=agldusdt&size=1"
         }
       },
       {
@@ -8403,14 +8403,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/RAD_USDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=radusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=radusdt&size=1"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/RAD_USDT"
         }
       },
       {
@@ -8426,12 +8426,6 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BETAUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BETA-USDT"
         }
@@ -8440,6 +8434,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BETA_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=BETAUSDT"
         }
       }
     ]
@@ -8472,14 +8472,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/LAZIO_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=LAZIOUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=LAZIOUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/LAZIO_USDT"
         }
       }
     ]
@@ -8489,14 +8489,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CHESSUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CHESS_USDT"
         }
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/CHESS_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=CHESSUSDT"
         }
       }
     ]
@@ -8570,6 +8570,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DARUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Kucoin",
           "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=DAR-USDT"
         }
@@ -8578,12 +8584,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/DAR_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=DARUSDT"
         }
       },
       {
@@ -8769,7 +8769,7 @@
       {
         "exchange": {
           "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/QI_USDT"
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BENQI_USDT"
         }
       }
     ]
@@ -8825,6 +8825,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=VGXUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/VGX/USD"
         }
@@ -8833,12 +8839,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/VGX_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=VGXUSDT"
         }
       },
       {
@@ -8895,6 +8895,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AMPUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=ampusdt&size=1"
         }
@@ -8913,12 +8919,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=AMPUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Coinbase Exchange",
           "tickerEndpoint": "https://api.exchange.coinbase.com/products/AMP-USD/ticker"
         }
@@ -8930,14 +8930,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PLAUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=plausdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=plausdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PLAUSDT"
         }
       },
       {
@@ -8959,6 +8959,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PYRUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=pyrusdt&size=1"
         }
@@ -8973,12 +8979,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/PYR_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=PYRUSDT"
         }
       }
     ]
@@ -9000,8 +9000,8 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/RNDR/USD"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=RNDRUSDT"
         }
       },
       {
@@ -9012,14 +9012,14 @@
       },
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/RNDR_USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/RNDR/USD"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=RNDRUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/RNDR_USDT"
         }
       },
       {
@@ -9081,20 +9081,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MCUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=mcusdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=MC-USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MCUSDT"
         }
       },
       {
@@ -9192,14 +9186,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/FXS/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FXS-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=FXS-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/FXS/USD"
         }
       },
       {
@@ -9215,14 +9209,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=voxelusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=VOXELUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=VOXELUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=voxelusdt&size=1"
         }
       },
       {
@@ -9244,14 +9238,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/HIGH_USDT"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HIGHUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=HIGHUSDT"
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/HIGH_USDT"
         }
       },
       {
@@ -9390,12 +9384,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SPELLUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=spellusdt&size=1"
         }
@@ -9416,6 +9404,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/SPELL_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=SPELLUSDT"
         }
       },
       {
@@ -9705,14 +9699,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ACAUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=acausdt&size=1"
         }
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=acausdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ACAUSDT"
         }
       },
       {
@@ -9746,14 +9740,14 @@
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/ANC/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ANC-USDT"
         }
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=ANC-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/ANC/USD"
         }
       },
       {
@@ -9775,18 +9769,6 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XNO-USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/XNO_USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=XNOUSDT"
         }
@@ -9794,7 +9776,19 @@
       {
         "exchange": {
           "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=xnousdt&size=1"
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=nanousdt&size=1"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=XNO-USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Gate.io",
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/NANO_USDT"
         }
       }
     ]
@@ -9806,12 +9800,6 @@
         "exchange": {
           "name": "Bybit",
           "tickerEndpoint": "https://api.bybit.com/public/linear/recent-trading-records?symbol=WOOUSDT&limit=1"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WOOUSDT"
         }
       },
       {
@@ -9830,6 +9818,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/WOO_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=WOOUSDT"
         }
       }
     ]
@@ -9897,12 +9891,6 @@
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ASTRUSDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=astrusdt&size=1"
         }
@@ -9917,6 +9905,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/ASTR_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=ASTRUSDT"
         }
       }
     ]
@@ -9944,14 +9938,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=GMT-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/GMT/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/GMT/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=GMT-USDT"
         }
       },
       {
@@ -10020,14 +10014,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=APE-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/APE/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/APE/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=APE-USDT"
         }
       },
       {
@@ -10084,14 +10078,8 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=BIFI-USDT"
-        }
-      },
-      {
-        "exchange": {
           "name": "Gate.io",
-          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BIFI_USDT"
+          "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/BEEFI_USDT"
         }
       }
     ]
@@ -10099,6 +10087,12 @@
   {
     "baseAsset": "MULTI",
     "exchanges": [
+      {
+        "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MULTIUSDT"
+        }
+      },
       {
         "exchange": {
           "name": "Huobi",
@@ -10109,12 +10103,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MULTI_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MULTIUSDT"
         }
       }
     ]
@@ -10147,6 +10135,12 @@
     "exchanges": [
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MOBUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "FTX",
           "tickerEndpoint": "https://ftx.com/api/markets/MOB/USD"
         }
@@ -10155,12 +10149,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/MOB_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=MOBUSDT"
         }
       }
     ]
@@ -10199,14 +10187,14 @@
     "exchanges": [
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=reiusdt&size=1"
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=REIUSDT"
         }
       },
       {
         "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=REIUSDT"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=reiusdt&size=1"
         }
       },
       {
@@ -10228,20 +10216,14 @@
       },
       {
         "exchange": {
-          "name": "Huobi",
-          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=galusdt&size=1"
-        }
-      },
-      {
-        "exchange": {
           "name": "Binance",
           "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=GALUSDT"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/GAL/USD"
+          "name": "Huobi",
+          "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=galusdt&size=1"
         }
       },
       {
@@ -10254,6 +10236,12 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/GAL_USDT"
+        }
+      },
+      {
+        "exchange": {
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/GAL/USD"
         }
       },
       {
@@ -10339,6 +10327,12 @@
       },
       {
         "exchange": {
+          "name": "Binance",
+          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OPUSDT"
+        }
+      },
+      {
+        "exchange": {
           "name": "Huobi",
           "tickerEndpoint": "https://api.huobi.pro/market/history/trade?symbol=opusdt&size=1"
         }
@@ -10353,12 +10347,6 @@
         "exchange": {
           "name": "Gate.io",
           "tickerEndpoint": "https://data.gateapi.io/api2/1/ticker/OP_USDT"
-        }
-      },
-      {
-        "exchange": {
-          "name": "Binance",
-          "tickerEndpoint": "https://api.binance.com/api/v3/ticker/price?symbol=OPUSDT"
         }
       },
       {
@@ -10409,14 +10397,14 @@
       },
       {
         "exchange": {
-          "name": "Kucoin",
-          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=STG-USDT"
+          "name": "FTX",
+          "tickerEndpoint": "https://ftx.com/api/markets/STG/USD"
         }
       },
       {
         "exchange": {
-          "name": "FTX",
-          "tickerEndpoint": "https://ftx.com/api/markets/STG/USD"
+          "name": "Kucoin",
+          "tickerEndpoint": "https://api.kucoin.com/api/v1/market/orderbook/level1?symbol=STG-USDT"
         }
       },
       {
