@@ -6,18 +6,21 @@
   "scripts": {
     "test": "nodemon index.ts",
     "start": "ts-node index.ts",
-    "generate_coin_list":"ts-node coinListGenerator.ts"
+    "generate_coin_list": "ts-node coinListGenerator.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/cli-progress": "^3.11.0",
     "axios": "^0.26.1",
+    "cli-progress": "^3.11.2",
     "fs": "^0.0.1-security",
     "nodemon": "^2.0.20",
     "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "@types/node": "^18.8.4"
+    "@types/node": "^18.8.4",
+    "ts-node": "^10.9.1"
   }
 }

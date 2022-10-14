@@ -1,13 +1,41 @@
 import axios from 'axios';
 import fs from "fs";
+import cliProgress from "cli-progress";
 
 import { IExchangeAsset, ITicker } from './types';
 
 import coinList from "./data.json";
 
+const progressVisual = new cliProgress.SingleBar({
+    barCompleteChar: '\u2588',
+    barIncompleteChar: '\u2591',
+    hideCursor: true
+}, cliProgress.Presets.shades_classic);
+
+progressVisual.start(coinList.length,0);
+
 const PRICE_LIST: { baseAsset: string; exchangePrices: ({ name: string; price: number | undefined; priceDiff: number; } | undefined)[]; }[]=[];
 
-const LOWER_ARBITRAGE_FILTER=1
+const LOWER_ARBITRAGE_FILTER=1.5
+
+const arraySorter = (willBeSorted:any[],called:number)=>{
+    let tempArray:any[]=[];
+    switch (called) {
+        case 0:
+            tempArray=willBeSorted.sort((a,b) => {
+                return a!.priceDiff - b!.priceDiff;
+            })
+            break;
+        case 1:
+            tempArray=willBeSorted.sort((a,b) => {
+                return b!.arbitrage - a!.arbitrage;
+            })
+            break;
+        default:
+            break;
+    }
+    return tempArray;
+}
 
 const getPrice = (exchangeName: string,responseData:any) => {
     let price=0;
@@ -59,14 +87,15 @@ const comparePrices = async () => {
             if (!sellHere) sellHere = element.exchangePrices[element.exchangePrices.length-2];
             let buyHere = element.exchangePrices[0];
             let arbitrage = (buyHere!.priceDiff)*-1+sellHere!.priceDiff;
-            if (arbitrage > LOWER_ARBITRAGE_FILTER) tableOutput.push({baseAsset:element.baseAsset,buyHereName:buyHere!.name,buyHerePrice:buyHere!.price,sellHereName:sellHere!.name,sellHerePrice:sellHere!.price,arbitrage:arbitrage.toFixed(4)+"%"})
+            if (arbitrage > LOWER_ARBITRAGE_FILTER) 
+            tableOutput.push({baseAsset:element.baseAsset,buyHereName:buyHere!.name,buyHerePrice:buyHere!.price,sellHereName:sellHere!.name,sellHerePrice:sellHere!.price,arbitrage:arbitrage})
             return new Promise((res,rej)=>res(""));
-            /*console.log("\n▶ "+element.baseAsset+" ◀\n"+ "▶"+buyHere!.name+" => "+buyHere!.price+" USDT\n◀"+sellHere!.name+" => "+sellHere!.price+" USDT\nArbitrage:"+ arbitrage.toFixed(4)+"%\n")*/
         } catch (error) {
             console.log(error)
         }
     })
     await Promise.all(priceListTableTask).then(() => {
+        tableOutput=arraySorter(tableOutput,1);
         console.clear()
         console.table(tableOutput)
         tableOutput=[];
@@ -75,7 +104,10 @@ const comparePrices = async () => {
 }
 
 const main = async () => {
+    let completedCount=0;
+    progressVisual.update(completedCount);
     PRICE_LIST.splice(0,PRICE_LIST.length);
+    
     let coinListTasks = coinList.map( async (element:ITicker,index)=>{
         let totalPrice=0;
         let totalExchangeCount=element.exchanges!.length;
@@ -94,10 +126,9 @@ const main = async () => {
                 let priceDiff = (exchangeAsset.price!/avgPrice - 1)*100;
                 return {name:exchangeAsset.exchange.name,price:exchangeAsset.price,priceDiff}
             })
-            priceCompareTasks=priceCompareTasks.sort((a,b) => {
-                return a!.priceDiff - b!.priceDiff;
-            })
+            priceCompareTasks=arraySorter(priceCompareTasks,0);
             PRICE_LIST.push({baseAsset:element.baseAsset,exchangePrices:priceCompareTasks});
+            progressVisual.update(++completedCount);
             return new Promise((resolve,reject)=>resolve(""));
         })
     })
