@@ -42,7 +42,7 @@ const generateCoinList = async () => {
     var exchangeTasks = Exchanges.map(async (exchange) => {
         console.time(`${exchange.name}, Done in`)
         var tickerTasks = Tickers.map(async (ticker, index) => {
-            var {endpoint,timeout} = createEndpointAndTimeout(exchange.tickerEndpoint, ticker.baseAsset, exchange.name);
+            var {endpoint,timeout} = createEndpointAndTimeout(exchange.tickerEndpoint!, ticker.baseAsset, exchange.name);
             var exchangeAsset: IExchangeAsset = { exchange: { name: exchange.name, tickerEndpoint: endpoint } };
             await new Promise((resolve, reject) => {
                 setTimeout(async () => {
